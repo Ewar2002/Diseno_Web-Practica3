@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+header{
+    padding: 0 4% 0 4%;
+    position: sticky;
+}
+.navbar .navbar-brand span{
+    font-size: 28px;
+}
+.navbar .navbar-brand i{
+    font-size: 45px;
+    margin-right: 5px;
+}
+.nav-item .nav-link{
+    color: #696969;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.navbar-nav:hover .nav-item,#Footer:hover .nav-item{
+    filter: blur(1px);
+}
+.navbar-nav .nav-item:hover,#Footer .nav-item:hover{
+    filter: blur(0);
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgb(50,50,240) 35%, rgb(255,0,221) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Overlay{
+    margin-top: 50px;
+    padding: 0 3% 0 3%;
+    margin-bottom: 180px;
+}
+#Overlay #Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+#Overlay #Img{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#Conten1,#Conten2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Conten1{
+    margin-bottom: 5%;
+}
+#Conten2{
+    margin-bottom: 180px;
+}
+#Conten2 h5{
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+#Conten2 div{
+    transition: 0.5s;
+}
+#Conten2:hover div{
+    filter: blur(3px);
+}
+#Conten2 div:hover{
+    filter: blur(0);
+    scale: 1.1;
+}
+#Conten3{
+    margin-bottom: 80px;
+}
+#Conten3 #Text{
+    text-align: justify;
+}
+#Conten3 #Img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleCaptions{
+    margin-bottom: 180px;
+}
+
+.carousel-item img{
+    margin: 0 auto;
+    height: 450px;
+    width: 80%;
+    border-radius: 25px;
+}
+.carousel-item h5,
+.carousel-item p{
+    color: rgb(253, 212, 29);
+}
+.carousel-item h5{
+    font-weight: 600;
+    font-size: 35pt;
+    text-shadow: 2px 5px 3px #000000;
+}
+#Contactos{
+    margin-bottom: 80px;
+}
+#Contactos #Text{
+    text-align: center;
+}
+#Contactos #Form{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#Contactos #Form .form-floating #Nombre{
+    margin-bottom: 6%;
+}
+#Contactos #Boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin: 0 4% 0 4%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer h3{
+    padding-top: 1.5%;
+}
+footer #Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
